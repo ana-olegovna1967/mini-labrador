@@ -1,0 +1,87 @@
+.menu-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+    border: rgb(161, 108, 67) 3px solid;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition-duration: 300ms;
+}
+
+.menu-item:hover {
+    box-shadow: black 2px 2px 10px 1px;
+    font-size: 45px;
+}
+
+.menu {
+    background-color: rgb(252, 170, 119);
+    text-align: center;
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: center;
+}
+.menu-icon {
+    width: 50px; 
+    height: 50px; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+body {
+    margin: 0;
+}
+.header-text {
+    font-size: 40px;
+    font-weight: bolder;
+}
+.page {
+    margin: 30px;
+    text-align: center;
+    
+}
+.photo {
+    display: inline-block;
+}
+.photo-div {
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+    box-shadow: grey 2px 2px 10px 1px;
+    border-radius: 5px;
+
+}
+.another-text {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 590px;
+    color: #666666;
+}
+.papa{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.stolby-kartinok{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+.big-img1 {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
