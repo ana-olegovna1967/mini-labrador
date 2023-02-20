@@ -111,3 +111,10 @@ body {
     top: 10px;
     height: 95vh;
 }
+
+.slider-photo {
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow: scroll;
+}
