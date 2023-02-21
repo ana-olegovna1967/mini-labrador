@@ -117,3 +117,16 @@ body {
     overflow: scroll;
     display: flex;
 }
+
+.background-image {
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    bottom: 10vh;
+    right: 33vw;
+    z-index: -1;
+}
+
+.background {
+background-color: rgba(218, 160, 94);
+}
